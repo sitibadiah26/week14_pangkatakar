@@ -3,7 +3,7 @@ from lib.akar import Akar
 
 if __name__=="__main__":
 
-    nilai1 = [-1,5,7]
+    nilai1 = [1,5,7]
     nilai2 = [81,9,0]
 
     print("MENGHITUNG PERPANGKATAN DAN PERAKARAN\n")
