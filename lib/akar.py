@@ -23,7 +23,7 @@ class Akar(Imajiner):
         print("Nilai kurang dari 0: {}".format(self.nilai2))
 
     def hasil(self, index):
-        print("Nomor {} hasil {} dua nya adalah bernilai {} maka {}".format(index+1, self.nama, self.nilai_akar, self.cek_keterangan(self.nilai_akar)))
+        print("Nomor {} hasil {} dua nya adalah bernilai {} maka {}".format(index, self.nama, self.nilai_akar, self.cek_keterangan(self.nilai_akar)))
 
     def cek_keterangan(self, hasil):
         if hasil < 0:
