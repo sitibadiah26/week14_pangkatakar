@@ -22,7 +22,7 @@ class Pangkat(Imajiner):
         print("Nilai kurang dari 0: {}".format(self.nilai1))
 
     def hasil(self, index):
-        print("Nomor {} hasil {} dua nya adalah {} ".format(index+1, self.nama, self.nilai_pangkat))
+        print("Nomor {} hasil {} dua nya adalah {} ".format(index, self.nama, self.nilai_pangkat))
 
     def __repr__(self):
         return "Angka {}".format(self.nilai1)
